@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_LaboratorioLogin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_name">Username</string> 
+ 	<string name="password">Password</string> 
+ 	<string name="banco_nacional">Banco Nacional</string> 
+ 	<string name="login">Login</string> 
+ 	<string name="logo_banco">logo banco</string> 
+ 	<string name="title_activity_acceso">Acceso</string> 
+ 	<string name="bienvenido">Bienvenido</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/UsernameTF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type your username"
+        android:maxLength="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/HelpB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need help?" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/myvmloginbutton" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/world" />
+
+</LinearLayout>

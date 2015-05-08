@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/urltextedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="@string/URLTF" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/botonURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/urltextedit"
+        android:layout_below="@+id/urltextedit"
+        android:layout_marginTop="16dp"
+        android:text="@string/paginaload" />
+
+    <WebView
+        android:id="@+id/webViewURL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/botonURL" />
+
+</RelativeLayout>

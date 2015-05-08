@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_LaboExamen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Username</string>
+    <string name="title_activity_acceso_perfil">AccesoPerfil</string>
+    <string name="title_activity_agregar">Agregar</string>
+    <string name="title_activity_prueba_intent">PruebaIntent</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_Lab_Menus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="save">salvar</string>
+    <string name="search">buscar</string>
+    <string name="preferences">preferencias</string>
+    <string name="r_text">r_text</string>
+    
+
+</resources>

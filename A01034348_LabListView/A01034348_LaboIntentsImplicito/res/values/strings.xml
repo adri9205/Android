@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_LaboIntentsImplicito</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TomarFoto">Tomar Foto</string>
+    <string name="title_activity_foto">Foto</string>
+    <string name="tomar_una_foto">Tomar una foto</string>
+    <string name="llamada">Hacer llamada</string>
+    <string name="title_activity_marcar">Marcar</string>
+    <string name="mapa_boton">Ver mapa</string>
+    <string name="accesar">Acceso a web</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="loc">Localizar</string>
+    <string name="title_activity_email">Email</string>
+    <string name="BotonMarcar">Marcar</string>
+    <string name="BotonLocalizar">Localizar</string>
+    <string name="EmailButton">Email</string>
+    <string name="title_activity_web">Web</string>
+    <string name="PaginaWebButton">Go</string>
+    <string name="email_01">Email</string>
+    <string name="URLTF">Url</string>
+    <string name="paginaload">GO!!</string>
+
+</resources>
