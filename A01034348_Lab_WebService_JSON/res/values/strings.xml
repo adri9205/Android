@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_Lab_WebService_JSON</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo_libro">título libro</string>
+    <string name="isbn">isbn</string>
+    <string name="fecha_publicacion">fecha de publicación</string>
+    <string name="temp_actual">Actual</string>
+    <string name="temp_min">Mínima</string>
+    <string name="temp_max">Máxima</string>
+    <string name="temperatura_titulo">Temperaturas de </string>
+    <string name="error_no_conexion">No existe conexión de internet</string>
+    <string name="title_activity_row">Row</string>
+
+</resources>
