@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/kmTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kmET"
+        android:layout_below="@+id/convertidor"
+        android:text="@string/kilometros"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/valorET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultado"
+        android:layout_below="@+id/resultado"
+        android:layout_marginTop="26dp"
+        android:clickable="false"
+        android:focusable="false"
+      
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/convertidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/convertidor_Titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/rMillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rPulgadas"
+        android:layout_below="@+id/rPulgadas"
+        android:layout_marginTop="29dp"
+        android:text="@string/millas" />
+
+    <Button
+        android:id="@+id/convertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rPulgadas"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/rPulgadas"
+        android:text="@string/convertirButton" />
+    
+    
+    <RadioButton
+        android:id="@+id/rMetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rMillas"
+        android:layout_below="@+id/rMillas"
+        android:layout_marginTop="14dp"
+        android:text="@string/metros" />
+
+    <RadioButton
+        android:id="@+id/rPulgadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valorET"
+        android:layout_centerVertical="true"
+        android:text="@string/pulgadas" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kmET"
+        android:layout_marginTop="34dp"
+        android:layout_toLeftOf="@+id/convertidor"
+        android:text="@string/Resultado" />
+
+    <EditText
+        android:id="@+id/kmET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultado"
+        android:layout_below="@+id/kmTV"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="kms a convertir"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>

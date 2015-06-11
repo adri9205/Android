@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A01034348_Laboratorio_Convertidor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="convertidor_Titulo">Convertidor</string>
+    <string name="kilometros">Kilometros</string>
+    <string name="Resultado">resultado</string>
+    <string name="pulgadas">Pulgadas</string>
+    <string name="millas">Millas</string>
+    <string name="metros">Metros</string>
+    <string name="convertirButton">Convertir</string>
+
+</resources>
